@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://wlpg848lhy30"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7y1yb"]
+
+[sub_resource type="Gradient" id="Gradient_gv0ej"]
+offsets = PackedFloat32Array(0, 0.476821, 1)
+colors = PackedColorArray(0.891048, 0, 0.0286891, 1, 0.929336, 0.589626, 0, 1, 1, 0.921569, 0.258824, 0)
+
+[node name="fire" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_7y1yb")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+amount = 40
+explosiveness = 0.24
+direction = Vector2(0, -1)
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 30.3
+initial_velocity_max = 50.51
+angular_velocity_min = -720.0
+angular_velocity_max = 720.0
+linear_accel_min = -5.0
+scale_amount_min = 5.0
+scale_amount_max = 11.1
+color_ramp = SubResource("Gradient_gv0ej")
