@@ -1,21 +1,24 @@
-[gd_scene load_steps=5 format=3 uid="uid://c5aju3v2sgrib"]
+[gd_scene load_steps=6 format=3 uid="uid://c5aju3v2sgrib"]
 
 [ext_resource type="PackedScene" uid="uid://00huebinrbjg" path="res://player/player.tscn" id="1_23hqu"]
 [ext_resource type="Texture2D" uid="uid://daro1dw1mt5du" path="res://tiles/test_tiles.png" id="3_dql2m"]
 
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_ss7h2"]
+polygon = PackedVector2Array(-8, -8, -8, 8, 8, 8, 8, -8)
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ewkkq"]
 texture = ExtResource("3_dql2m")
-texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
 1:0/0 = 0
+1:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_ss7h2")
 1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:0/0/physics_layer_0/angular_velocity = 0.0
-1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSet" id="TileSet_k7chp"]
-tile_size = Vector2i(32, 32)
+occlusion_layer_0/light_mask = 1
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_ewkkq")
 
