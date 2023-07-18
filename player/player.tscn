@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://00huebinrbjg"]
+[gd_scene load_steps=5 format=3 uid="uid://00huebinrbjg"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_c6bin"]
+[ext_resource type="PackedScene" uid="uid://cpgtw3sr7fe7s" path="res://player/extinguisher.tscn" id="2_goab7"]
 [ext_resource type="Texture2D" uid="uid://c8461mnr582n0" path="res://icon.svg" id="2_uexpe"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i7u7y"]
@@ -8,6 +9,10 @@ size = Vector2(80, 112)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_c6bin")
+
+[node name="extinguisher" parent="." instance=ExtResource("2_goab7")]
+position = Vector2(78, 29)
+rotation = -1.5708
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_i7u7y")
