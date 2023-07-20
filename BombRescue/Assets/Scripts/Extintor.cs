@@ -9,25 +9,23 @@ using UnityEngine;
 public class Extintor : MonoBehaviour
 {
     public ParticleSystem gasExtintor;
+
+    private ParticleSystem.EmissionModule emission;
+    
     void Start()
     {
-        //var particleSystem = gameObject.GetComponent<ParticleSystem>();
-        //var emissionModule = particleSystem.emission;
-        
-        gasExtintor.emissionRate = 0;
+        emission = gasExtintor.emission;
+        emission.rateOverTime = 0;
     }
     void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {   
-            
-            gasExtintor.emissionRate = 160;
+            emission.rateOverTime = 160;
         }
          if(Input.GetMouseButtonUp(0))
         {
-        //var particleSystem = gameObject.GetComponent<ParticleSystem>();
-        //var emissionModule = particleSystem.emission;
-            gasExtintor.emissionRate = 0;
+            emission.rateOverTime = 0;
         }
 
     }
