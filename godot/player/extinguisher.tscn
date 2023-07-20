@@ -47,6 +47,7 @@ texture = ExtResource("1_jimhd")
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="."]
 position = Vector2(0, 12)
+emitting = false
 amount = 400
 process_material = SubResource("ParticleProcessMaterial_miv4v")
 trail_lifetime = 0.5
