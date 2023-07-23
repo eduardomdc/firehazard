@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 6593669f776a71c4780b7b21ac5bd4cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9000698748296452282
+    second: pernaMovTeste_0
+  - first:
+      213: 508411263257671488
+    second: pernaMovTeste_1
+  - first:
+      213: -7465888521640908313
+    second: pernaMovTeste_2
+  - first:
+      213: -907124348328291187
+    second: pernaMovTeste_3
+  - first:
+      213: -5330041077290321701
+    second: pernaMovTeste_4
+  - first:
+      213: 8905518716039224820
+    second: pernaMovTeste_5
+  - first:
+      213: 5395128806111940977
+    second: pernaMovTeste_6
+  - first:
+      213: -5809947886469916731
+    second: pernaMovTeste_7
+  - first:
+      213: -5595976265070545889
+    second: pernaMovTeste_8
+  - first:
+      213: 3660248605592491208
+    second: pernaMovTeste_9
+  - first:
+      213: 8933492742911546443
+    second: pernaMovTeste_10
+  - first:
+      213: 7272406654806452860
+    second: pernaMovTeste_11
+  - first:
+      213: -5808295517995403188
+    second: pernaMovTeste_12
+  - first:
+      213: 7003592908139341963
+    second: pernaMovTeste_13
+  - first:
+      213: -9193805983304114629
+    second: pernaMovTeste_14
+  - first:
+      213: 2888792592559236773
+    second: pernaMovTeste_15
+  - first:
+      213: -7248724752433662741
+    second: pernaMovTeste_16
+  - first:
+      213: -5386000353686516884
+    second: pernaMovTeste_17
+  - first:
+      213: 8152043599036873980
+    second: pernaMovTeste_18
+  - first:
+      213: 7865631925056439965
+    second: pernaMovTeste_19
+  - first:
+      213: -4551806219281178375
+    second: pernaMovTeste_20
+  - first:
+      213: -199235971388647716
+    second: pernaMovTeste_21
+  - first:
+      213: -1194791622206383023
+    second: pernaMovTeste_22
+  - first:
+      213: 21642222757325580
+    second: pernaMovTeste_23
+  - first:
+      213: 9011897593021888591
+    second: pernaMovTeste_24
+  - first:
+      213: -3898988268841356525
+    second: pernaMovTeste_25
+  - first:
+      213: 1483115046306449883
+    second: pernaMovTeste_26
+  - first:
+      213: -936835894540113110
+    second: pernaMovTeste_27
+  - first:
+      213: 6309669832494843760
+    second: pernaMovTeste_28
+  - first:
+      213: 9154452990826944772
+    second: pernaMovTeste_29
+  - first:
+      213: 7650751368205265372
+    second: pernaMovTeste_30
+  - first:
+      213: -6761966561568004253
+    second: pernaMovTeste_31
+  - first:
+      213: 5603080802267661534
+    second: pernaMovTeste_32
+  - first:
+      213: -3290933460223615419
+    second: pernaMovTeste_33
+  - first:
+      213: 6793049418741864801
+    second: pernaMovTeste_34
+  - first:
+      213: -9200846528710064748
+    second: pernaMovTeste_35
+  - first:
+      213: -9028145342626634369
+    second: pernaMovTeste_36
+  - first:
+      213: -6012054398191683990
+    second: pernaMovTeste_37
+  - first:
+      213: 6975944659136336472
+    second: pernaMovTeste_38
+  - first:
+      213: 7668419030810039065
+    second: pernaMovTeste_39
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pernaMovTeste_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab85386e2d7e8ec70800000000000000
+      internalID: 9000698748296452282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047f74aa95d3e0700800000000000000
+      internalID: 508411263257671488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e96dee02f5d36890800000000000000
+      internalID: -7465888521640908313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84d8ca163f3963f0800000000000000
+      internalID: -907124348328291187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8bed541e3e706b0800000000000000
+      internalID: -5330041077290321701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd5c1ab612c69b70800000000000000
+      internalID: 8905518716039224820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17197c580195fda40800000000000000
+      internalID: 5395128806111940977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7dd6ffd2bee5fa0800000000000000
+      internalID: -5809947886469916731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14f3f45c391752b0800000000000000
+      internalID: -5595976265070545889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c495f5c6b0dbc230800000000000000
+      internalID: 3660248605592491208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44d5c861542afb70800000000000000
+      internalID: 8933492742911546443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7aece95257cce460800000000000000
+      internalID: 7272406654806452860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48f363000ac46fa0800000000000000
+      internalID: -5808295517995403188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b882711b4a2c13160800000000000000
+      internalID: 7003592908139341963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e1c474b2a096080800000000000000
+      internalID: -9193805983304114629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6e545be8d071820800000000000000
+      internalID: 2888792592559236773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be43c983e3b576b90800000000000000
+      internalID: -7248724752433662741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b036ee6351145b0800000000000000
+      internalID: -5386000353686516884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcf6124670e12170800000000000000
+      internalID: 8152043599036873980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pernaMovTeste_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9606fadf86582d60800000000000000
+      internalID: 7865631925056439965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a451635018769c946a5ee5a50f279bf5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pernaMovTeste_0: 9000698748296452282
+      pernaMovTeste_1: 508411263257671488
+      pernaMovTeste_10: 8933492742911546443
+      pernaMovTeste_11: 7272406654806452860
+      pernaMovTeste_12: -5808295517995403188
+      pernaMovTeste_13: 7003592908139341963
+      pernaMovTeste_14: -9193805983304114629
+      pernaMovTeste_15: 2888792592559236773
+      pernaMovTeste_16: -7248724752433662741
+      pernaMovTeste_17: -5386000353686516884
+      pernaMovTeste_18: 8152043599036873980
+      pernaMovTeste_19: 7865631925056439965
+      pernaMovTeste_2: -7465888521640908313
+      pernaMovTeste_3: -907124348328291187
+      pernaMovTeste_4: -5330041077290321701
+      pernaMovTeste_5: 8905518716039224820
+      pernaMovTeste_6: 5395128806111940977
+      pernaMovTeste_7: -5809947886469916731
+      pernaMovTeste_8: -5595976265070545889
+      pernaMovTeste_9: 3660248605592491208
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

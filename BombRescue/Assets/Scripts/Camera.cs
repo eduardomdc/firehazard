@@ -4,14 +4,8 @@ using UnityEngine;
 
 public class camera : MonoBehaviour
 {
-    public Player player;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    //Código pra camera seguir o jogador
+    public PlayerPerna player;
     void Update()
     {
         this.transform.position = player.transform.position;

@@ -9,7 +9,7 @@ using UnityEngine;
 public class Extintor : MonoBehaviour
 {
     public ParticleSystem gasExtintor;
-
+    //Emission controla o quanto de particulas sai do extintor
     private ParticleSystem.EmissionModule emission;
     
     void Start()
