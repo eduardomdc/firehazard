@@ -10,7 +10,7 @@ public class Extintor : MonoBehaviour
 {
     public ParticleSystem gasExtintor;
     //Emission controla o quanto de particulas sai do extintor
-    private ParticleSystem.EmissionModule emission;
+    public ParticleSystem.EmissionModule emission;
     
     void Start()
     {
@@ -21,7 +21,7 @@ public class Extintor : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {   
-            emission.rateOverTime = 160;
+            emission.rateOverTime = 630;
         }
          if(Input.GetMouseButtonUp(0))
         {

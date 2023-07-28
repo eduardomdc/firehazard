@@ -19,12 +19,20 @@ public class PlayerPerna : MonoBehaviour
     [SerializeField]
     private Animator animator;
 
+    //Vida do Player
+    [SerializeField] 
+    private float vidaMax = 100;
+    
+    [SerializeField] 
+    private float vidaAtual;
+
     // Start is called before the first frame update
     void Start()
     {
-        //Coleta o RigidBody2D e o animator
+        //Coleta o RigidBody2D e o an imator
         Player = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        vidaAtual = vidaMax;
     }
 
     // Update is called once per frame
@@ -44,5 +52,10 @@ public class PlayerPerna : MonoBehaviour
         {
             animator.SetBool("walk", false);
         }
+    }
+
+    void TomarDano(int dano)
+    {
+        vidaAtual -= dano;
     }
 }

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - ambulancia
   - pessoaFerida
+  - gasExtintor
+  - fogo
+  - PlayerTorso
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - gasExtintor
+  - player
   - 
   - 
   - 

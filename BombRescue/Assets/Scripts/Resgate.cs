@@ -4,10 +4,10 @@ using UnityEngine;
 public class Resgate : MonoBehaviour
 {
     public GameObject torso;
-    public GameObject pessoa, pessoaResgatada1;
-    public Sprite resgatandoPessoa, torsoPadrao;
+    public GameObject pessoa1, pessoaResgatada1;
+    public Sprite SpriteResgatandoPessoa1, torsoPadrao;
     public GameObject ambulancia;
-    private bool pegaPessoa, devolvePessoaResgatada1;
+    private bool pegaPessoa1, devolvePessoaResgatada1, resgatandoPessoa1;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +17,13 @@ public class Resgate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        if(Input.GetKeyDown("e") && pegaPessoa == true)
+        Debug.Log(pegaPessoa1);
+        if(Input.GetKeyDown("e") && pegaPessoa1 == true)
         {
-            torso.GetComponent<SpriteRenderer>().sprite = resgatandoPessoa;
+            resgatandoPessoa1 = true;
+            torso.GetComponent<SpriteRenderer>().sprite = SpriteResgatandoPessoa1;
             this.gameObject.GetComponent<PlayerPerna>().speed = 1.5f;
-            pessoa.SetActive(false);
+            pessoa1.SetActive(false);
             print("Resgate");
         }
         if(Input.GetKeyDown("e") && devolvePessoaResgatada1 == true)
@@ -37,15 +39,22 @@ public class Resgate : MonoBehaviour
     {
         if (other.gameObject.CompareTag("pessoaFerida"))
         {
-            pegaPessoa = true;
+            pegaPessoa1 = true;
         }
 
-        if (other.gameObject.CompareTag("ambulancia"))
+        if (other.gameObject.CompareTag("ambulancia") && resgatandoPessoa1 == true)
         {
             devolvePessoaResgatada1 = true;
-            pegaPessoa = false;
         }
     
+    }
+
+    public void OnTriggerExit2D(Collider2D other) 
+    {
+        if(other.gameObject.CompareTag("pessoaFerida"))
+        {
+            pegaPessoa1 = false;    
+        }
     }
     
 }
