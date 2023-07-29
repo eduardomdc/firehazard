@@ -5,25 +5,31 @@ using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 public class Fogo : MonoBehaviour
 {
-    public float holdThrow=2f;
+    public float holdThrow=1.5f;
     float holdTimer;
-    private bool colisao;
+    private bool colisao, fogoApagado;
     // Start is called before the first frame update
 
     void Start()
     {
-        holdTimer = holdThrow;
+        this.holdTimer = holdThrow;
     }
     void Update()
     {
-        if(Input.GetButton("Fire1") && colisao == true)
+        if(Input.GetButton("Fire1") && this.colisao == true)
         {
-            holdTimer-=Time.deltaTime   ;
-            if (holdTimer<0)
+            this.holdTimer-=Time.deltaTime   ;
+            if (this.holdTimer<0)
             {
                 Debug.Log("foguinnn");
                 ApagaFogo();
+                this.holdTimer=holdThrow;
             }
+        }
+
+        if(this.fogoApagado == true)
+        {
+            Invoke("AcendeFogo", 5.5f);
         }
     }
     public void OnTriggerStay2D(Collider2D other) {
@@ -31,13 +37,28 @@ public class Fogo : MonoBehaviour
         if (other.gameObject.CompareTag("gasExtintor"))
         {
             Debug.Log("colidindo");
-            colisao = true;
+            this.colisao = true;
         }
     }    
-    
+    public void OnTriggerExit2D(Collider2D other)
+    { 
+        if (other.gameObject.CompareTag("gasExtintor"))
+        {
+            Debug.Log("colidindo");
+            this.colisao = false;
+        }
+    }    
+
     public void ApagaFogo()
     {
         this.gameObject.SetActive(false);
+        this.fogoApagado = true;
     }
  
+ public void AcendeFogo()
+ {
+    this.gameObject.SetActive(true);
+    this.fogoApagado = false;
+ }
+ //a
 }
