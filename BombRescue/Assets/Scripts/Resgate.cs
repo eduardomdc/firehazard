@@ -4,56 +4,149 @@ using UnityEngine;
 public class Resgate : MonoBehaviour
 {
     public GameObject torso;
-    public GameObject pessoa1, pessoaResgatada1;
-    public Sprite SpriteResgatandoPessoa1, torsoPadrao;
+    public GameObject mae, maeResgatada, pai, paiResgatado, filha, filhaResgatada, filho, filhoResgatado;
+    public Sprite SpriteResgatandoMae, SpriteResgatandoPai, SpriteResgatandoFilha, SpriteResgatandoFilho, torsoPadrao;
     public GameObject ambulancia;
-    private bool pegaPessoa1, devolvePessoaResgatada1, resgatandoPessoa1;
+    private bool pegaMae, devolveMaeResgatada, resgatandoMae, pegaPai, devolvePaiResgatado, resgatandoPai, pegaFilha, devolveFilhaResgatada, resgatandoFilha, pegaFilho, devolveFilhoResgatado, resgatandoFilho;
     // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {   
-        Debug.Log(pegaPessoa1);
-        if(Input.GetKeyDown("e") && pegaPessoa1 == true)
+        //Mae
+        Debug.Log(pegaMae);
+        if(Input.GetKeyDown("e") && pegaMae == true)
         {
-            resgatandoPessoa1 = true;
-            torso.GetComponent<SpriteRenderer>().sprite = SpriteResgatandoPessoa1;
-            this.gameObject.GetComponent<PlayerPerna>().speed = 1.5f;
-            pessoa1.SetActive(false);
-            print("Resgate");
+            resgatandoMae = true;
+            torso.GetComponent<SpriteRenderer>().sprite = SpriteResgatandoMae;
+            this.gameObject.GetComponent<PlayerPerna>().speed = 5.0f;
+            mae.SetActive(false);
         }
-        if(Input.GetKeyDown("e") && devolvePessoaResgatada1 == true)
+        if(Input.GetKeyDown("e") && devolveMaeResgatada == true)
         {
             torso.GetComponent<SpriteRenderer>().sprite = torsoPadrao;
-            this.gameObject.GetComponent<PlayerPerna>().speed = 3.4f;
-            print("EITAPORRAAA");
-            pessoaResgatada1.SetActive(true);
-        }    
+            this.gameObject.GetComponent<PlayerPerna>().speed = 7.0f;
+            maeResgatada.SetActive(true);
+            pegaMae = false;
+            resgatandoMae = false;
+            devolveMaeResgatada = false;
+        }
+        //Pai
+            if(Input.GetKeyDown("e") && pegaPai == true)
+        {
+            resgatandoPai = true;
+            torso.GetComponent<SpriteRenderer>().sprite = SpriteResgatandoPai;
+            this.gameObject.GetComponent<PlayerPerna>().speed = 5.0f;
+            pai.SetActive(false);
+        }
+        
+        if(Input.GetKeyDown("e") && devolvePaiResgatado == true)
+        {
+            torso.GetComponent<SpriteRenderer>().sprite = torsoPadrao;
+            this.gameObject.GetComponent<PlayerPerna>().speed = 7.0f;
+            paiResgatado.SetActive(true);
+            pegaPai = false;
+            resgatandoPai = false;
+            devolvePaiResgatado = false;
+        }
+        //Filha  
+        if(Input.GetKeyDown("e") && pegaFilha == true)
+        {
+            resgatandoFilha = true;
+            torso.GetComponent<SpriteRenderer>().sprite = SpriteResgatandoFilha;
+            this.gameObject.GetComponent<PlayerPerna>().speed = 5.0f;
+            filha.SetActive(false);
+        }
+        
+        if(Input.GetKeyDown("e") && devolveFilhaResgatada == true)
+        {
+            torso.GetComponent<SpriteRenderer>().sprite = torsoPadrao;
+            this.gameObject.GetComponent<PlayerPerna>().speed = 7.0f;
+            filhaResgatada.SetActive(true);
+            pegaFilha = false;
+            resgatandoFilha = false;
+            devolveFilhaResgatada = false;
+        } 
+        //Filho
+        if(Input.GetKeyDown("e") && pegaFilho == true)
+        {
+            resgatandoFilho = true;
+            torso.GetComponent<SpriteRenderer>().sprite = SpriteResgatandoFilho;
+            this.gameObject.GetComponent<PlayerPerna>().speed = 5.0f;
+            filho.SetActive(false);
+        }
+        
+        if(Input.GetKeyDown("e") && devolveFilhoResgatado == true)
+        {
+            torso.GetComponent<SpriteRenderer>().sprite = torsoPadrao;
+            this.gameObject.GetComponent<PlayerPerna>().speed = 7.0f;
+            filhoResgatado.SetActive(true);
+            pegaFilho = false;
+            resgatandoFilho = false;
+            devolveFilhoResgatado = false;
+        }
     }
 
     public void OnTriggerStay2D(Collider2D other) 
     {
-        if (other.gameObject.CompareTag("pessoaFerida"))
+        //Mae
+        if (other.gameObject.CompareTag("maeFerida"))
         {
-            pegaPessoa1 = true;
+            pegaMae = true;
         }
-
-        if (other.gameObject.CompareTag("ambulancia") && resgatandoPessoa1 == true)
+        if (other.gameObject.CompareTag("ambulancia") && resgatandoMae == true)
         {
-            devolvePessoaResgatada1 = true;
+            devolveMaeResgatada = true;
         }
-    
+        //Pai
+        if (other.gameObject.CompareTag("paiFerido"))
+        {
+            pegaPai = true;
+        }
+        if (other.gameObject.CompareTag("ambulancia") && resgatandoPai == true)
+        {
+            devolvePaiResgatado = true;
+        }
+        //Filha
+        if (other.gameObject.CompareTag("filhaFerida"))
+        {
+            pegaFilha = true;
+        }
+        if (other.gameObject.CompareTag("ambulancia") && resgatandoFilha == true)
+        {
+            devolveFilhaResgatada = true;
+        }
+        //Filho
+         if (other.gameObject.CompareTag("filhoFerido"))
+        {
+            pegaFilho = true;
+        }
+        if (other.gameObject.CompareTag("ambulancia") && resgatandoFilho == true)
+        {
+            devolveFilhoResgatado = true;
+        }
     }
 
     public void OnTriggerExit2D(Collider2D other) 
     {
-        if(other.gameObject.CompareTag("pessoaFerida"))
+        //Mae
+        if(other.gameObject.CompareTag("maeFerida"))
         {
-            pegaPessoa1 = false;    
+            pegaMae = false;    
+        }
+        //Pai
+            if(other.gameObject.CompareTag("paiFerido"))
+        {
+            pegaPai = false;    
+        }
+        //Filha
+        if(other.gameObject.CompareTag("filhaFerida"))
+        {
+            pegaFilha = false;    
+        }
+        //Filho
+        if(other.gameObject.CompareTag("filhoFerido"))
+        {
+            pegaFilho = false;    
         }
     }
     

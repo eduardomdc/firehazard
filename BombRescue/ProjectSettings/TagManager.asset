@@ -9,6 +9,10 @@ TagManager:
   - gasExtintor
   - fogo
   - PlayerTorso
+  - maeFerida
+  - paiFerido
+  - filhaFerida
+  - filhoFerido
   layers:
   - Default
   - TransparentFX
