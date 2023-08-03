@@ -5,9 +5,10 @@ using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 public class Fogo : MonoBehaviour
 {
-    public float holdThrow=1.5f;
+    public float holdThrow=1.65f;
     float holdTimer;
     private bool colisao, fogoApagado;
+    public AudioClip fogoApagando;
     // Start is called before the first frame update
 
     void Start()
@@ -16,11 +17,16 @@ public class Fogo : MonoBehaviour
     }
     void Update()
     {
+        /* if(fogoApagado == false)
+        {
+            AudioSource.PlayClipAtPoint(fogoAceso, new Vector3(0, 0, 0), 3f);
+        } */
         if(Input.GetButton("Fire1") && this.colisao == true)
         {
             this.holdTimer-=Time.deltaTime   ;
             if (this.holdTimer<0)
             {
+                AudioSource.PlayClipAtPoint(fogoApagando, new Vector3(0, 0, 0), 35f);
                 Debug.Log("foguinnn");
                 ApagaFogo();
                 this.holdTimer=holdThrow;

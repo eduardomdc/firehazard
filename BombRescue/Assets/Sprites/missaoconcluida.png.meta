@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 9185bfb3d20215d47bb174e9e8ff7b16
+guid: 2d0d46f40e28dfb418347b35c1a088d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7315168462425007569
-    second: filho-carregado_mari_v1_0
+      213: -1459971917179079110
+    second: missaoconcluida_0
+  - first:
+      213: 6526291525225304569
+    second: missaoconcluida_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -49,8 +52,8 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.2481951, y: 0.69721764}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -98,22 +101,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: filho-carregado_mari_v1_0
+      name: missaoconcluida_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 27
-        width: 36
-        height: 34
+        x: 19
+        y: 7
+        width: 128
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2a54057a0d4b7a90800000000000000
-      internalID: -7315168462425007569
+      spriteID: a36be7ec6432dbbe0800000000000000
+      internalID: -1459971917179079110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missaoconcluida_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 7
+        width: 176
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f152bd709b029a50800000000000000
+      internalID: 6526291525225304569
       vertices: []
       indices: 
       edges: []
@@ -122,14 +146,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      filho-carregado_mari_v1_0: -7315168462425007569
+      missaoconcluida_0: -1459971917179079110
+      missaoconcluida_1: 6526291525225304569
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

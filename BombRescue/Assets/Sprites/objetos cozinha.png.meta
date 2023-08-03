@@ -157,7 +157,7 @@ TextureImporter:
         width: 34
         height: 42
       alignment: 9
-      pivot: {x: 0.99097914, y: 0.49999708}
+      pivot: {x: 0.5377563, y: 0.6512604}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: objetos cozinha_2
       rect:
         serializedVersion: 2
-        x: 159
+        x: 161
         y: 261
         width: 66
         height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37248993}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

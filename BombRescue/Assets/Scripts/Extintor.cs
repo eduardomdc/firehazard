@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEditor;
-using UnityEditor.PackageManager.Requests;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class Extintor : MonoBehaviour
@@ -19,6 +17,7 @@ public class Extintor : MonoBehaviour
     }
     void Update()
     {
+
         if(Input.GetMouseButtonDown(0))
         {   
             emission.rateOverTime = 630;

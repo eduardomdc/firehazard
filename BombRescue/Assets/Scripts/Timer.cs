@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
 /*     float currentTime = 0f;
     float startingTime= 120f;    
     public TextMeshProUGUI countdownText; */
-    public GameObject GameOver;
+    public GameObject GameOver, MissaoConcluida, Resgate;
     public float timeValue = 20;
     public TextMeshProUGUI timerText;
     void Update()
@@ -57,7 +57,6 @@ public class Timer : MonoBehaviour
         SceneManager.LoadScene("Game");
         timeValue = 300;
     }
-
   /*    public void changeColor()
     {
         timerText.color = Color.RGBToHSV(255,137,51,255);

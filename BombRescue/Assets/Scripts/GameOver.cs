@@ -36,6 +36,7 @@ public class GameOver : MonoBehaviour
         {
             Time.timeScale = 1;
         }
+
     }
 
     public void RestartButton()
@@ -44,8 +45,8 @@ public class GameOver : MonoBehaviour
         gameOverIs = false;
     }
 
-    public void ExitButton()
+    public void MenuButton()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
     }
 }
